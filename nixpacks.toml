@@ -1,5 +1,1 @@
-[providers]
-languages = ["nodejs", "python"]
 
-[start]
-cmd = "cd backend && python manage.py runserver"  
