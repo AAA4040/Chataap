@@ -1,5 +1,5 @@
 [providers]
-languages = ["python"]
+languages = ["nodejs", "python"]
 
 [start]
-cmd = "python web.py"
+cmd = "cd backend && python manage.py runserver"  
