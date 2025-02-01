@@ -1,1 +1,2 @@
 web: gunicorn Chatapp.wsgi --log-file -
+cd frontend && npm install && npm run build && cp -R build/* ../backend/staticfiles/
