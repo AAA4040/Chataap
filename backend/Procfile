@@ -1,2 +1,4 @@
+web: gunicorn Chatapp.wsgi --bind 0.0.0.0:$PORT --workers 4
 web: gunicorn Chatapp.wsgi --log-file -
 cd frontend && npm install && npm run build && cp -R build/* ../backend/staticfiles/
+python manage.py collectstatic --noinput
