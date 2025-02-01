@@ -1,0 +1,5 @@
+[providers]
+languages = ["python"]
+
+[start]
+cmd = "python web.py"
