@@ -13,7 +13,7 @@ https://docs.djangoproject.com/en/4.0/ref/settings/
 from pathlib import Path
 from datetime import timedelta
 import os
-import dj_database_url # type: ignore
+import dj_database_url
 
 DATABASES={
     'default':dj_database_url.config(default=os.getenv('DATABASE_URL'))
